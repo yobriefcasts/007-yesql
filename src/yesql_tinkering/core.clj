@@ -9,3 +9,7 @@
               :password     "" })
 
 (defquery get-all-people "sql/get-all-people.sql")
+
+(defquery get-people-by-surname "sql/get-people-by-surname.sql")
+
+

@@ -1,5 +1,5 @@
 (ns yesql-tinkering.core
-  (:require [yesql.core :refer [defquery]]
+  (:require [yesql.core :refer [defquery defqueries]]
             [clojure.pprint :refer [pprint]]))
 
 (def db-spec {:classname    "org.h2.Driver"
@@ -12,4 +12,5 @@
 
 (defquery get-people-by-surname "sql/get-people-by-surname.sql")
 
+(defqueries "sql/get-persons.sql")
 

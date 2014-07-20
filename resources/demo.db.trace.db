@@ -1,0 +1,7 @@
+07-20 14:06:13 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLException: Syntax error in SQL statement "SELECT *
+FROM PEOPLE
+WHERE ID IN ?[*],? "; expected "("; SQL statement:
+SELECT *
+FROM people
+WHERE id IN ?,? [42001-178]

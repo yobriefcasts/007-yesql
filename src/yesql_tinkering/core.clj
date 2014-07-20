@@ -14,3 +14,7 @@
 
 (defqueries "sql/get-persons.sql")
 
+(defquery insert-person! "sql/insert-person.sql")
+
+(defquery insert-person<! "sql/insert-person.sql")
+

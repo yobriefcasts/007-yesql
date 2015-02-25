@@ -3,6 +3,7 @@
   :url "http://example.com/FIXME"
   :license {:name "Eclipse Public License"
             :url "http://www.eclipse.org/legal/epl-v10.html"}
+  :main yesql-tinkering.core
   :dependencies [[org.clojure/clojure "1.6.0"]
                  [com.h2database/h2 "1.4.178"]
                  [yesql "0.4.0"]])
